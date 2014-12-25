@@ -1,0 +1,15 @@
+{
+  "name": "Advent2014NodeJs",
+  "version": "0.0.0",
+  "description": "Advent2014NodeJs",
+  "main": "app.js",
+  "author": {
+    "name": "ishisaka",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}

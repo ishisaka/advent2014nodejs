@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+.pad,
+#profiles,
+th,
+td {
+  padding: 0.5em;
+}
+#profiles {
+  border: 2px solid #000;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+td {
+  border: 1px solid #ccc;
+}
+tr:last-child td:first-child {
+  -moz-border-radius-bottom-left: 9px;
+  -webkit-border-bottom-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+tr:last-child td:last-child {
+  -moz-border-radius-bottom-right: 9px;
+  -webkit-border-bottom-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+tr:nth-child(2) td:first-child {
+  -moz-border-radius-bottom-left: 9px;
+  -webkit-border-bottom-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+tr:nth-child(2) td:last-child {
+  -moz-border-radius-bottom-right: 9px;
+  -webkit-border-bottom-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
